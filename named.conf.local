@@ -7,7 +7,7 @@
 // Setting up files for nameserver domain settings
 zone "n47turbo.me" {
   type master;
-  file "/etc/bind/db.n47turbo.me";
+  file "/etc/bind/db.dnsserver.com";
 };
 
 //Create a domain to manage
