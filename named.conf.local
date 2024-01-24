@@ -1,0 +1,17 @@
+// sudo nano /etc/bind/named.conf.local
+
+//
+//Do any local configuration here
+//
+
+// Setting up files for nameserver domain settings
+zone "n47turbo.me" {
+  type master;
+  file "/etc/bind/db.n47turbo.me";
+};
+
+//Create a domain to manage
+zone "test.net" {
+  type master;
+  file "/etc/bind/db.test.net";
+};
